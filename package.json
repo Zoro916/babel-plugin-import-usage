@@ -1,0 +1,14 @@
+{
+  "name": "babel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zoro_1943@icloud.com",
+  "license": "ISC",
+  "dependencies": {
+    "babel-types": "^6.26.0"
+  }
+}
