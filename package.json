@@ -1,5 +1,5 @@
 {
-  "name": "babel-demo",
+  "name": "babel-plugin-import-usage",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
