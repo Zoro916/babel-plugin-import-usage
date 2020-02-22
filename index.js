@@ -8,7 +8,7 @@ const visitor = {
       const declarations = specifiers.map((specifier) => {
         return babelTypes.ImportDeclaration(
           [babelTypes.importDefaultSpecifier(specifier.local)],
-          babelTypes.StringLiteral(`${source.value}/${specifier.local.name}`)
+          babelTypes.StringLiteral(`${source.value}/lib/${specifier.local.name}`)
         )
       })
       path.replaceWithMultiple(declarations)
